@@ -1,22 +1,22 @@
 //
-//  FuckYouFullScreen.m
-//  FuckYouFullScreen
+//  FFS.m
+//  FFS
 //
 //  Created by Evan Lucas on 7/22/15
 //  Copyright (c) 2015 Evan Lucas. All rights reserved.
 //
 
-#import "FuckYouFullScreen.h"
+#import "FFS.h"
 
-@implementation NSWindow (FuckYouFullScreen)
-- (BOOL)FuckYouFullScreen_showsFullScreenButton {
+@implementation NSWindow (FFS)
+- (BOOL)FFS_showsFullScreenButton {
   return NO;
 }
 @end
 
-@implementation FuckYouFullScreen
+@implementation FFS
 + (void)load {
-  FuckYouFullScreen *controller = [FuckYouFullScreen sharedInstance];
+  FFS *controller = [FFS sharedInstance];
   [controller swizzle];
 }
 
@@ -31,7 +31,7 @@
 
 - (void)swizzle {
   NSError *error = nil;
-  [NSWindow jr_swizzleMethod:@selector(showsFullScreenButton) withMethod:@selector(FuckYouFullScreen_showsFullScreenButton) error:&error];
+  [NSWindow jr_swizzleMethod:@selector(showsFullScreenButton) withMethod:@selector(FFS_showsFullScreenButton) error:&error];
   
   if (error) {
     NSLog(@"Unable to swizzle showsFullScreenButton: %@", error);

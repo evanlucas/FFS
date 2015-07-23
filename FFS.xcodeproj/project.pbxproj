@@ -8,23 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		20B950DE1B604EE10059EBDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B950DD1B604EE10059EBDD /* Cocoa.framework */; };
-		20B950E71B604EE10059EBDD /* FuckYouFullScreen-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 20B950E61B604EE10059EBDD /* FuckYouFullScreen-Prefix.pch */; };
-		20B950E91B604EE10059EBDD /* FuckYouFullScreen-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B950E81B604EE10059EBDD /* FuckYouFullScreen-Info.plist */; };
-		20B950EC1B604EE10059EBDD /* FuckYouFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B950EB1B604EE10059EBDD /* FuckYouFullScreen.m */; };
+		20B950E71B604EE10059EBDD /* FFS-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 20B950E61B604EE10059EBDD /* FFS-Prefix.pch */; };
+		20B950E91B604EE10059EBDD /* FFS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20B950E81B604EE10059EBDD /* FFS-Info.plist */; };
+		20B950EC1B604EE10059EBDD /* FFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B950EB1B604EE10059EBDD /* FFS.m */; };
 		20B950EF1B604EE10059EBDD /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B950EE1B604EE10059EBDD /* JRSwizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		20B950DA1B604EE10059EBDD /* FuckYouFullScreen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuckYouFullScreen.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B950DA1B604EE10059EBDD /* FFS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFS.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B950DD1B604EE10059EBDD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		20B950E01B604EE10059EBDD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		20B950E11B604EE10059EBDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		20B950E21B604EE10059EBDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		20B950E51B604EE10059EBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20B950E61B604EE10059EBDD /* FuckYouFullScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FuckYouFullScreen-Prefix.pch"; sourceTree = "<group>"; };
-		20B950E81B604EE10059EBDD /* FuckYouFullScreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FuckYouFullScreen-Info.plist"; sourceTree = "<group>"; };
-		20B950EA1B604EE10059EBDD /* FuckYouFullScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckYouFullScreen.h; sourceTree = "<group>"; };
-		20B950EB1B604EE10059EBDD /* FuckYouFullScreen.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = FuckYouFullScreen.m; sourceTree = "<group>"; tabWidth = 2; };
+		20B950E61B604EE10059EBDD /* FFS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFS-Prefix.pch"; sourceTree = "<group>"; };
+		20B950E81B604EE10059EBDD /* FFS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFS-Info.plist"; sourceTree = "<group>"; };
+		20B950EA1B604EE10059EBDD /* FFS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFS.h; sourceTree = "<group>"; };
+		20B950EB1B604EE10059EBDD /* FFS.m */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = FFS.m; sourceTree = "<group>"; tabWidth = 2; };
 		20B950ED1B604EE10059EBDD /* JRSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		20B950EE1B604EE10059EBDD /* JRSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +44,7 @@
 		20B950D11B604EE10059EBDD = {
 			isa = PBXGroup;
 			children = (
-				20B950E31B604EE10059EBDD /* FuckYouFullScreen */,
+				20B950E31B604EE10059EBDD /* FFS */,
 				20B950DC1B604EE10059EBDD /* Frameworks */,
 				20B950DB1B604EE10059EBDD /* Products */,
 			);
@@ -53,7 +53,7 @@
 		20B950DB1B604EE10059EBDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20B950DA1B604EE10059EBDD /* FuckYouFullScreen.bundle */,
+				20B950DA1B604EE10059EBDD /* FFS.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,18 +77,18 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		20B950E31B604EE10059EBDD /* FuckYouFullScreen */ = {
+		20B950E31B604EE10059EBDD /* FFS */ = {
 			isa = PBXGroup;
 			children = (
-				20B950E61B604EE10059EBDD /* FuckYouFullScreen-Prefix.pch */,
-				20B950E81B604EE10059EBDD /* FuckYouFullScreen-Info.plist */,
-				20B950EA1B604EE10059EBDD /* FuckYouFullScreen.h */,
-				20B950EB1B604EE10059EBDD /* FuckYouFullScreen.m */,
+				20B950E61B604EE10059EBDD /* FFS-Prefix.pch */,
+				20B950E81B604EE10059EBDD /* FFS-Info.plist */,
+				20B950EA1B604EE10059EBDD /* FFS.h */,
+				20B950EB1B604EE10059EBDD /* FFS.m */,
 				20B950ED1B604EE10059EBDD /* JRSwizzle.h */,
 				20B950EE1B604EE10059EBDD /* JRSwizzle.m */,
 				20B950E41B604EE10059EBDD /* Supporting Files */,
 			);
-			path = FuckYouFullScreen;
+			path = FFS;
 			sourceTree = "<group>";
 		};
 		20B950E41B604EE10059EBDD /* Supporting Files */ = {
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20B950D91B604EE10059EBDD /* FuckYouFullScreen */ = {
+		20B950D91B604EE10059EBDD /* FFS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20B950F31B604EE10059EBDD /* Build configuration list for PBXNativeTarget "FuckYouFullScreen" */;
+			buildConfigurationList = 20B950F31B604EE10059EBDD /* Build configuration list for PBXNativeTarget "FFS" */;
 			buildPhases = (
 				20B950D61B604EE10059EBDD /* Sources */,
 				20B950D71B604EE10059EBDD /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = FuckYouFullScreen;
+			name = FFS;
 			productName = FuckYouFullScreen;
-			productReference = 20B950DA1B604EE10059EBDD /* FuckYouFullScreen.bundle */;
+			productReference = 20B950DA1B604EE10059EBDD /* FFS.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 20B950D51B604EE10059EBDD /* Build configuration list for PBXProject "FuckYouFullScreen" */;
+			buildConfigurationList = 20B950D51B604EE10059EBDD /* Build configuration list for PBXProject "FFS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20B950D91B604EE10059EBDD /* FuckYouFullScreen */,
+				20B950D91B604EE10059EBDD /* FFS */,
 			);
 		};
 /* End PBXProject section */
@@ -155,8 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B950E91B604EE10059EBDD /* FuckYouFullScreen-Info.plist in Resources */,
-				20B950E71B604EE10059EBDD /* FuckYouFullScreen-Prefix.pch in Resources */,
+				20B950E91B604EE10059EBDD /* FFS-Info.plist in Resources */,
+				20B950E71B604EE10059EBDD /* FFS-Prefix.pch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B950EF1B604EE10059EBDD /* JRSwizzle.m in Sources */,
-				20B950EC1B604EE10059EBDD /* FuckYouFullScreen.m in Sources */,
+				20B950EC1B604EE10059EBDD /* FFS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +255,7 @@
 				DSTROOT = "/Library/Application Support/SIMBL";
 				INFOPLIST_FILE = FuckYouFullScreen/Info.plist;
 				INSTALL_PATH = /Plugins;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FFS;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
@@ -269,7 +269,7 @@
 				DSTROOT = "/Library/Application Support/SIMBL";
 				INFOPLIST_FILE = FuckYouFullScreen/Info.plist;
 				INSTALL_PATH = /Plugins;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FFS;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -277,7 +277,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20B950D51B604EE10059EBDD /* Build configuration list for PBXProject "FuckYouFullScreen" */ = {
+		20B950D51B604EE10059EBDD /* Build configuration list for PBXProject "FFS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20B950F11B604EE10059EBDD /* Debug */,
@@ -286,13 +286,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20B950F31B604EE10059EBDD /* Build configuration list for PBXNativeTarget "FuckYouFullScreen" */ = {
+		20B950F31B604EE10059EBDD /* Build configuration list for PBXNativeTarget "FFS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				20B950F41B604EE10059EBDD /* Debug */,
 				20B950F51B604EE10059EBDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

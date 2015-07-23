@@ -1,4 +1,4 @@
-# FuckYouFullScreen
+# FFS
 
 [SIMBL](https://code.google.com/p/simbl/) plugin to bring back the maximize button on Yosemite.
 
@@ -9,7 +9,7 @@
 Requires SIMBL. After you have SIMBL (0.9.9):
 
 ```bash
-$ git clone git://github.com/evanlucas/FuckYouFullScreen
+$ git clone git://github.com/evanlucas/FFS
 $ xcodebuild
 ```
 
